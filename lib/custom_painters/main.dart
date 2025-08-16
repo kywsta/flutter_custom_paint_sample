@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_paint_sample/custom_painters/circle_painter.dart';
-import 'package:flutter_custom_paint_sample/custom_painters/heart_painter.dart';
 import 'package:flutter_custom_paint_sample/custom_painters/line_painter.dart';
 import 'package:flutter_custom_paint_sample/custom_painters/rect_painter.dart';
 
@@ -49,14 +48,6 @@ class HomePage extends StatelessWidget {
                   height: 100,
                   width: double.infinity,
                   child: Center(child: Text("Hello, I am in a circle")),
-                ),
-              ),
-              CustomPaint(
-                painter: HeartPainter(color: Colors.purple),
-                child: SizedBox(
-                  height: 300,
-                  width: 300,
-                  child: Center(child: Text("Hello, I am in a heart")),
                 ),
               ),
             ],
